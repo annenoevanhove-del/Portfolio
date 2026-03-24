@@ -1,0 +1,300 @@
+---
+title: "Reports"
+editor: visual
+format:
+  html:
+    code-fold: False
+---
+```{=html}
+<style>
+body {
+  font-family: "Times New Roman", serif;
+   font-size: 17px;
+}
+</style>
+```
+
+```{=html}
+<style>
+p {
+  text-align: justify;
+}
+</style>
+```
+
+```{=html}
+<style>
+.scroll-box {
+  max-height: 400px;   /* hauteur de la fenêtre */
+  overflow-y: auto;    /* scroll vertical */
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+</style>
+```
+<br>
+
+<p style="font-weight: bold; font-size: 24px;">
+Statistical analysis of oceanographic data (Black Sea – Danube area)
+</p>
+
+
+This project aimed to understand how environmental conditions influence species distribution. Using oceanographic data, I applied statistical analyses (normality tests, clustering, PCA, biodiversity indices) to identify spatial patterns. Results showed that nutrient-rich, silty environments near the Danube support higher biodiversity, while more distant sandy areas host different communities.The complete script is available below. 
+
+**Skills acquired**: 
+
+- Statistical analysis (Shapiro test, data transformation)
+
+- Biodiversity indices (Shannon, Simpson, evenness)
+
+- Multivariate analysis (PCA, clustering)
+
+- Distance metrics (Bray-Curtis, Hellinger, Chord)
+
+- Data visualization (maps, dendrograms, PCA plots)
+
+- Ecological data interpretation (species–environment relationships)
+
+
+<iframe src="files/Reports/Statistical_analysis.pdf" width="65%" height="750px"></iframe>
+
+::: {.scroll-box}
+```{r}
+#| eval: false
+
+#Statistical analysis of oceanographic data (Black Sea – Danube area)
+
+#Sample of the code used in this analysis
+
+## 1. Data Import
+#The datasets used in this analysis include species data, environmental variables, #and station information. They are imported and cleaned before analysis.
+
+Especes <- read_excel("~/Desktop/master oceano/M2/Maths/Marilaure/Exam janvier/Especes.xlsx")
+View(Especes)
+Especes <- Especes[-c(2, 3, 25, 26),]
+
+FullData <- read_excel("~/Desktop/master oceano/M2/Maths/Marilaure/Exam janvier/FullData.xlsx")
+View(FullData)
+FullData <- FullData[-1, ]
+
+data_spc <- read.table("~/Desktop/master oceano/M2/Maths/Marilaure/Exam janvier/BiomassDominantSpecies.txt", header=TRUE, sep="\t")
+data_env <- read.table("~/Desktop/master oceano/M2/Maths/Marilaure/Exam janvier/EnvData.txt", header=TRUE, sep="\t")
+data_station <- read.table("~/Desktop/master oceano/M2/Maths/Marilaure/Exam janvier/Stations.txt", header=TRUE, sep="\t")
+
+
+## 2. Data Preprocessing
+#Data were cleaned and formatted. Some rows were removed and variables were #converted to numeric format when necessary, while keeping spatial variables #unchanged.
+
+exclude_cols <- c("Depth", "latitude", "longitude", "Station")
+
+FullData[] <- lapply(FullData, function(x) {
+  if (!any(names(x) %in% exclude_cols)) {
+    as.numeric(x)
+  } else {
+    x
+  }
+})
+
+Especes[] <- lapply(Especes, function(x) {
+  if (!any(names(x) %in% exclude_cols)) {
+    as.numeric(x)
+  } else {
+    x
+  }
+})
+
+
+## 3. Normality Analysis of Environmental Variables
+#The distribution of environmental descriptors was assessed using histograms and #Shapiro-Wilk tests. When necessary, transformations were considered to improve #normality.
+
+hist(data_env$Porosity, main="Histogramme de la Porosité", xlab="Porosité", freq=FALSE, col="lightblue")
+abline(v = c(mean(data_env$Porosity),median(data_env$Porosity)), col=c("green", "blue"), lty=c(2,2), lwd=c(3, 3))
+shapiro.test(data_env$Porosity)
+
+hist(data_env$Grain, main = "Histogramme du Grain", xlab= "Grain", freq = FALSE, col = "lightblue")
+abline(v=c(mean(data_env$Grain), median(data_env$Grain)), col= c("green", "blue"), lty=c(2,2), lwd=c(3,3))
+shapiro.test(data_env$Grain)
+
+
+## 4. Biodiversity Indices
+#Several biodiversity indices were calculated to describe species diversity at each #station:
+#- Species richness (N0)
+#- Shannon index (H)
+#- Hill numbers (N1, N2)
+#- Evenness indices (J, E1, E2)
+
+N0 <- rowSums(data_spc > 0)
+H <- diversity(data_spc)
+N1 <- exp(H)
+N2 <- diversity(data_spc, "inv")
+J <- H/log(N0)
+E1 <- N1/N0
+E2 <- N2/N0
+
+div1 <- data.frame(N0, H, N1, N2, E1, E2, J)
+div1
+
+
+## 5. Spatial Distribution of Biodiversity
+#The spatial distribution of biodiversity indices was visualized using geographic #coordinates (latitude and longitude). Point size and color represent biodiversity #levels.
+
+ggplot(biodiv_map, aes(x = longitude, y = latitude, size = N1, color = N1)) +
+  geom_point(alpha = 0.7) +  
+  geom_text(aes(label = Station), hjust = -0.3, vjust = -0.5, size = 4, color = "black") +
+  scale_size_continuous(range = c(3, 10)) +  
+  scale_color_gradient(low = "blue", high = "gold") +  
+  theme_minimal()
+  
+  
+## 6. Distance Matrices
+#Distance matrices between sites were computed using different metrics:
+#- Bray-Curtis distance
+#- Chord distance
+#- Hellinger distance
+#These metrics allow comparison of sites based on species composition and #environmental variables.
+
+spe.db <- vegdist(d.spe)
+spe.dbL <- vegdist(decostand(d.spe,'log'))
+spe.dc <- dist(decostand(d.spe,'norm'))
+spe.dh <- dist(decostand(d.spe,'hel'))
+
+coldiss(spe.db)
+coldiss(spe.dbL)
+coldiss(spe.dc)
+coldiss(spe.dh)
+
+
+## 7. Cluster Analysis
+#Hierarchical clustering was performed to group sites based on similarity. Several #clustering methods were compared:
+#- Single linkage
+#- Complete linkage
+#- Average linkage (UPGMA)
+#- Ward method
+#The best method was selected using cophenetic correlation and silhouette analysis.
+
+spe.norm2 <- decostand(d.spe2,'norm')
+spe.dist2 <- dist(spe.norm2)
+
+spe.dist.average2  <- hclust(spe.dist2, method= "average")
+plot(spe.dist.average2)
+
+
+## 8. Principal Component Analysis (PCA) – Species Data
+#A PCA was performed on species data to identify patterns in species distribution #across stations.
+
+spe.pca <- rda(spe.hel)
+summary(spe.pca)
+
+biplot(spe.pca, scaling=1)
+biplot(spe.pca, scaling=2)
+
+
+## 9. Principal Component Analysis (PCA) – Environmental Variables
+#A PCA was conducted on environmental variables to identify major environmental #gradients influencing the system.
+
+env.pca <- rda(d.env.sc)
+summary(env.pca)
+
+biplot(env.pca, scaling=1)
+biplot(env.pca, scaling=2)
+
+
+## 10. PCA on Biodiversity Indices
+#A PCA was performed on biodiversity indices to explore relationships between #diversity metrics and identify patterns among stations.
+
+env.pca <- rda(d.bio.valid)
+summary(env.pca)
+
+biplot(env.pca, scaling=1)
+biplot(env.pca, scaling=2)
+```
+:::
+<br>
+
+
+[Black_Sea_Script.R](Files/Reports/Vanhove_Stat.R) and [Black_Sea_Report.pdf](Files/Reports/Statistical_analysis.pdf)
+
+<hr>
+
+<p style="font-weight: bold; font-size: 24px;">
+Internship in Stable Isotope Analysis
+</p>
+
+
+
+This internship focused on the ecophysiology of the Antarctic sea star Odontaster validus through stable isotope analysis. I was responsible for preparing biological samples (grinding, acidification, and encapsulation) to ensure accurate isotopic measurements. I also gained insight into isotopic techniques and the functioning of EA-IRMS instrumentation. This experience strengthened my laboratory skills, scientific rigor, and understanding of trophic ecology in marine ecosystems.
+
+**Skills acquired**: 
+
+- Sample preparation for stable isotope analysis (grinding, acidification, encapsulation)
+
+- Handling of laboratory equipment and chemical safety procedures
+
+- Understanding of stable isotope ecology (δ¹³C, δ¹⁵N, δ³⁴S)
+
+- Knowledge of isotopic fractionation and tissue turnover concepts
+
+- Familiarity with EA-IRMS instrumentation and analytical workflow
+
+<iframe src="files/Reports/Isotop_internship.pdf" width="65%" height="750px"></iframe>
+
+[Isotopic_internship.pdf](Files/Reports/Isotop_internship.pdf)
+
+<hr>
+<br>
+
+**Valorisation of marine resources**
+
+Market study of the Thai fisheries sector, with a focus on shrimp aquaculture.
+This project analyzes production trends, market organization, and environmental, economic, and health-related challenges through a One Health approach.
+It highlights key issues such as overfishing, disease outbreaks in aquaculture, and global competition, while proposing strategies for a more sustainable and quality-oriented development of the sector.
+
+**Skills acquired**: 
+
+- Sectoral data analysis (fisheries & aquaculture)
+
+- International market research
+
+- Strategic analysis (SWOT)
+
+- Systems thinking & One Health approach
+
+- Environmental and sustainability assessment
+
+- Public policy and economic analysis
+
+<iframe src="files/Reports/Valorisation.pdf" width="65%" height="750px"></iframe>
+[Valorisation.pdf](Files/Reports/Valorisation.pdf)
+
+<hr>
+<br>
+
+<p style="font-weight: bold; font-size: 24px;">
+Biochemistry and Physiology of Marine Animals (Collaborative Project)
+</p>
+
+
+
+This academic project explores the biochemistry and physiology of marine animals, focusing on the adaptations of blue-ringed octopuses (genus Hapalochlaena). It examines their evolutionary origins, habitat distribution, feeding strategies, reproductive behavior, and advanced camouflage systems. Particular attention is given to their unique use of tetrodotoxin (TTX), a powerful neurotoxin used for both predation and defense. This work highlights how morphological, physiological, and behavioral traits are finely tuned to environmental constraints.
+
+**Skills acquired**: 
+
+- Scientific research and literature review
+
+- Data synthesis and critical analysis
+
+- Academic writing in English
+
+- Team collaboration
+
+- Marine biology and biochemistry knowledge
+
+- Oral and written scientific communication
+
+<iframe src="files/Reports/Pieuvre.pdf" width="65%" height="750px"></iframe>
+[Hapalochlaena.pdf](Files/Reports/Pieuvre.pdf)
+
+-------
+<br>

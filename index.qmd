@@ -1,0 +1,55 @@
+---
+title: "Index.qmd"
+format: html
+editor: visual
+---
+
+---
+title: "Home"
+---
+
+```{=html}
+<style>
+body {
+  font-family: "Times New Roman", serif;
+   font-size: 17px;
+}
+</style>
+```
+
+```{=html}
+<style>
+p {
+  text-align: justify;
+}
+</style>
+```
+# Welcome
+
+::: {layout-ncol=2}
+
+![](files/Image/Anne.png){width=45%}
+
+
+📍 Based in France  
+🎓 Seeking PhD opportunities  
+📧 annenoe.vanhove@outlook.fr  
+
+I am a marine biologist studying ecosystem dynamics, trophic interactions, and ecological modeling in marine systems.
+
+:::
+
+## About me ##
+
+My academic background spans multiple scales, from cellular biology and organism physiology to ecosystem dynamics. I first trained in small-scale biological processes before pursuing two Master's degrees: one in organismal biology and ecology focused on conservation and restoration, and another in oceanography, including physical and chemical processes, trophic interactions, and large-scale ecosystem dynamics. This training allows me to approach marine ecosystems as integrated systems across scales, from fine-scale processes to large-scale dynamics.
+
+
+This portfolio presents my research projects, including my master's thesis and other academic work.
+
+
+## Research Projects
+
+-   [Master Thesis in Oceanography](Master_thesis_2.html)
+-   [Master Thesis in Marine Biology](Master_thesis_1.html)
+-   [Reports](Reports.html)
+-   [Presentations](Presentations.html)

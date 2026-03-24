@@ -1,0 +1,103 @@
+---
+title: "Master's Thesis in oceanography"
+format: html
+page-layout: full
+editor: visual
+lang: en
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+
+```
+
+```{=html}
+<style>
+body {
+  font-family: "Times New Roman", serif;
+   font-size: 17px;
+}
+</style>
+```
+
+```{=html}
+<style>
+p {
+  text-align: justify;
+}
+</style>
+```
+
+------------------------------------------------------------------------
+
+## Evaluating the spatio-temporal dynamics of low- and mid-trophic level resources in the Azores: implications for the new MPA network and cetacean populations
+
+**Summary**
+
+This thesis investigates the spatial and temporal distribution of epipelagic low- and mid-trophic level biomass in the Azores using outputs from the ecological model **SEAPODYM-LMTL**. The study explores how productivity patterns influence marine megafauna distribution and evaluates whether the Azorean **Marine Protected Area (MPA) network** overlaps with highly productive regions.
+
+------------------------------------------------------------------------
+
+**Keywords**
+
+SEAPODYM-LMTL • trophic levels • productivity zones • marine protected areas • cetaceans
+
+------------------------------------------------------------------------
+
+### Methods
+
+-   Ecological model outputs from **SEAPODYM-LMTL**
+-   Analysis of **three productivity indicators**
+    -   Net Primary Production (NPP)\
+    -   Zooplankton biomass\
+    -   Micronekton biomass
+-   **Time series analysis** (1998–2023)
+-   **Spatial analysis** of productivity hotspots
+-   Classification of **productivity zones**
+    -   recurrent\
+    -   occasional\
+    -   unfavorable
+-   Comparison with **Marine Protected Areas (MPAs)**
+-   **Cetacean sightings dataset** from the POPA program (2001–2015)
+
+------------------------------------------------------------------------
+
+### Key Results
+
+::: {style="text-align: left;"}
+-   **Strong spatial heterogeneity** in marine productivity across the Azores.
+:::
+
+![](files/Master_thesis/productivity.png){width="70%"}
+
+::: {style="text-align: left;"}
+-   A **high-productivity region** was identified around the islands and **north of 37°N**.
+:::
+
+![](files/Master_thesis/productivity_zones.png){width="70%"}
+
+::: {style="text-align: left;"}
+-   **Fully protected MPAs** tend to overlap with **more productive waters**, especially between **April and November**.
+:::
+
+![](files/Master_thesis/MPA_productivity.png){width="70%"}
+
+::: {style="text-align: left;"}
+-   **Baleen whales** were more frequently observed in **occasional productivity zones**, particularly during summer.
+-   No clear association was detected for **dolphins** and **deep-diving cetaceans**.
+:::
+
+![](files/Master_thesis/Cetaceans_productivity.png){width="70%"}
+
+
+<iframe src="files/Master_thesis/master_thesis.pdf" width="65%" height="800px">
+
+</iframe>
+
+[Anne_Vanhove_Master's_Thesis_Oceanography.pdf](files/Master_thesis/master_thesis.pdf)
+
+
+------------------------------------------------------------------------
