@@ -107,7 +107,7 @@ Bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine rece
 </iframe>
 <br>
 
-[Anne_Vanhove_Master's_thesis.pdf](Files/Master_thesis/Master_thesis_bioluminescence.pdf) and [Presentation.pdf](Files/Master_thesis/Biol.pdf)
+[Anne_Vanhove_Master's_thesis.pdf](files/Master_thesis/Master_thesis_bioluminescence.pdf) and [Presentation.pdf](Files/Master_thesis/Biol.pdf)
 
 
 ------------------------------------------------------------------------
