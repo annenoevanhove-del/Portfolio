@@ -141,15 +141,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <style>
 body {
   font-family: "Times New Roman", serif;
-   font-size: 17px;
+  font-size: 17px;
+  color: black;   /* <-- texte noir pour tout le document */
 }
-</style>
-<style>
+
 p {
   text-align: justify;
+  color: black;   /* <-- assure le texte des paragraphes */
 }
-</style>
-<style>
+
 .scroll-box {
   max-height: 400px;   /* hauteur de la fenêtre */
   overflow-y: auto;    /* scroll vertical */
@@ -157,6 +157,7 @@ p {
   padding: 15px;
   border-radius: 8px;
   border: 1px solid #ddd;
+  color: black;        /* <-- si tu mets du texte dans les scroll-box */
 }
 </style>
 <p><br></p>
@@ -173,8 +174,9 @@ Statistical analysis of oceanographic data (Black Sea – Danube area)
 <li><p>Data visualization (maps, dendrograms, PCA plots)</p></li>
 <li><p>Ecological data interpretation (species–environment relationships)</p></li>
 </ul>
-<iframe src="files/Reports/Statistical_analysis.pdf" width="65%" height="750px">
+<iframe src="files/Reports/Statistical_analysis.pdf" width="65%" height="750px" style="display:block; margin:0 auto;">
 </iframe>
+<p><br></p>
 <div class="scroll-box">
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Statistical analysis of oceanographic data (Black Sea – Danube area)</span></span>
@@ -339,9 +341,9 @@ Internship in Stable Isotope Analysis
 <li><p>Knowledge of isotopic fractionation and tissue turnover concepts</p></li>
 <li><p>Familiarity with EA-IRMS instrumentation and analytical workflow</p></li>
 </ul>
-<iframe src="files/Reports/Isotop_internship.pdf" width="65%" height="750px">
+<iframe src="files/Reports/Isotop_internship.pdf" width="65%" height="750px" style="display:block; margin:0 auto;">
 </iframe>
-<p><a href="Files/Reports/Isotop_internship.pdf">Isotopic_internship.pdf</a></p>
+<p><br> <a href="Files/Reports/Isotop_internship.pdf">Isotopic_internship.pdf</a></p>
 <hr>
 <p><br></p>
 <p><strong>Valorisation of marine resources</strong></p>
@@ -355,9 +357,26 @@ Internship in Stable Isotope Analysis
 <li><p>Environmental and sustainability assessment</p></li>
 <li><p>Public policy and economic analysis</p></li>
 </ul>
-<iframe src="files/Reports/Valorisation.pdf" width="65%" height="750px">
+<iframe src="files/Reports/Valorisation.pdf" width="65%" height="750px" style="display:block; margin:0 auto;">
 </iframe>
-<p><a href="Files/Reports/Valorisation.pdf">Valorisation.pdf</a></p>
+<p><br> <a href="Files/Reports/Valorisation.pdf">Valorisation.pdf</a></p>
+<hr>
+<p><br></p>
+<p style="font-weight: bold; font-size: 24px;">
+The Hidden Side of Oil Spills
+</p>
+<p>Oil spills represent massive releases of hydrocarbons into the marine environment, with ecological impacts depending on the chemical composition of the oil, the affected ecosystem, and local physicochemical conditions. Hydrocarbons, particularly PAHs, can disperse, sediment, or bioaccumulate, affecting marine life from phytoplankton to mammals. Chemical dispersants accelerate oil fragmentation but may increase its toxicity to organisms. International regulations and local measures (sorbents, barriers, animal care) help mitigate impacts, yet risk assessment remains complex. Prevention and management of oil spills require a thorough understanding of hydrocarbon chemistry, marine ecology, and remediation techniques.</p>
+<p><strong>Skills acquired</strong>:</p>
+<ul>
+<li><p>Environmental Chemistry &amp; Toxicology (hydrocarbon composition, behavior, toxicity, including PAHs)</p></li>
+<li><p>Marine Ecology &amp; Ecosystem Impact Analysis</p></li>
+<li><p>Pollution Mitigation &amp; Remediation Techniques (dispersants, sorbents, skimmers, and cleanup strategies)</p></li>
+<li><p>Regulatory &amp; Risk Assessment Skills (international conventions, local regulations and environmental risk evaluation)</p></li>
+<li><p>Scientific Research &amp; Communication</p></li>
+</ul>
+<iframe src="files/Reports/Oil_Spills.pdf" width="65%" height="750px" style="display:block; margin:0 auto;">
+</iframe>
+<p><br> <a href="Files/Reports/Oil_Spills.pdf">Oil_Spill.pdf</a></p>
 <hr>
 <p><br></p>
 <p style="font-weight: bold; font-size: 24px;">
@@ -373,9 +392,9 @@ Biochemistry and Physiology of Marine Animals (Collaborative Project)
 <li><p>Marine biology and biochemistry knowledge</p></li>
 <li><p>Oral and written scientific communication</p></li>
 </ul>
-<iframe src="files/Reports/Pieuvre.pdf" width="65%" height="750px">
+<iframe src="files/Reports/Pieuvre.pdf" width="65%" height="750px" style="display:block; margin:0 auto;">
 </iframe>
-<p><a href="Files/Reports/Pieuvre.pdf">Hapalochlaena.pdf</a></p>
+<p><br> <a href="Files/Reports/Pieuvre.pdf">Hapalochlaena.pdf</a></p>
 <hr>
 <p><br></p>
 
