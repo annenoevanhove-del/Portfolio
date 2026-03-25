@@ -106,12 +106,23 @@ ul.task-list li input[type="checkbox"] {
 <style>
 body {
   font-family: "Times New Roman", serif;
-   font-size: 17px;
+  font-size: 17px;
+  color: black;   /* <-- texte noir pour tout le document */
 }
-</style>
-<style>
+
 p {
   text-align: justify;
+  color: black;   /* <-- assure le texte des paragraphes */
+}
+
+.scroll-box {
+  max-height: 400px;   /* hauteur de la fenêtre */
+  overflow-y: auto;    /* scroll vertical */
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: black;        /* <-- si tu mets du texte dans les scroll-box */
 }
 </style>
 <hr>
@@ -152,7 +163,7 @@ Through transcriptomic and immunological approaches, this work explored the <str
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.5%;justify-content: center;">
-<p><img src="Files/Master_thesis/Cascade_tranduction_1.png" class="img-fluid"></p>
+<p><img src="docs/Master_thesis/Cascade_tranduction_1.png" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 49.5%;justify-content: center;">
 <p><img src="Files/Master_thesis/Cascade_transduction_2.png" class="img-fluid"></p>
