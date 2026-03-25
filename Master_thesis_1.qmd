@@ -83,7 +83,11 @@ Bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine rece
 ::: {style="text-align: left;"}
 -   Immunological analyses confirmed the **presence and localization of these proteins in the rosette glands located in the parapodia** of *T. helgolandica*. 
 
-![](files/Master_thesis/Immunomarquage.png){width="60%" style="display:block; margin:0 auto;"}
+<iframe src="files/Master_thesis/Immunomarquage.pdf" 
+        width="60%" height="600px"
+        style="display:block; margin:0 auto;">
+</iframe>
+<br>
 :::
 
 -   These findings suggest that the species possesses the **molecular components required both to control and to perceive its own bioluminescence**.
