@@ -8,27 +8,83 @@ editor: visual
 
 Analysis of vertical physicochemical gradients in a coastal marine system, highlighting the link between stratification, biological activity, and biogeochemical processes.
 
-<iframe src="files/Presentations/Chemical_oceanography.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/Chemical_oceanography.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 **Valorisation of marine resources**
 
 Strategic analysis of Thailand’s fisheries and aquaculture, highlighting sustainability challenges, economic dynamics, and future pathways toward more resilient marine resource management.
 
-<iframe src="files/Presentations/Valorisation.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/Valorisation.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
+
+**Marine Invertebrate Zoology**
+
+
+
+
+<iframe src="files/Presentations/Zoology.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Marine mammals**
+
+
+
+
+<iframe src="files/Presentations/Marine_mammals.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+
+**Stable Isotops**
+
+
+
+
+<iframe src="files/Presentations/Isotops.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Dynamics of marine ecosystems**
+
+
+
+
+<iframe src="files/Presentations/Dynamics.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+<br>
+------
 **Biochemistry and Physiology of Marine Animals **
 
 Study of the blue-ringed octopus (Hapalochlaena), highlighting its adaptations to the environment, including advanced camouflage, reproductive strategies, and the use of tetrodotoxin for predation and defense.
 
-<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 **Coastal Oceanography**
 
 Collaborative project combining fieldwork, instrumentation, and data analysis through the design and deployment of surface drifters to study coastal circulation and temperature variability in Calvi Bay.
 
-<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
+**Geology**
+
+
+
+
+<iframe src="files/Presentations/Mer_rouge.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Methodological Approach to Oceanographic Practice**
+
+
+
+
+<iframe src="files/Presentations/Pelagia.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Interview Cristina Zenato**
+
+
+
+
+<iframe src="files/Presentations/Interview.pdf" width="70%" height="800px"style="display:block; margin:0 auto;"></iframe>

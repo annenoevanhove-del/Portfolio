@@ -1,7 +1,6 @@
 ---
 title: "Master's Thesis in oceanography"
 format: html
-page-layout: full
 editor: visual
 lang: en
 ---
@@ -33,22 +32,33 @@ p {
 
 ------------------------------------------------------------------------
 
-## Evaluating the spatio-temporal dynamics of low- and mid-trophic level resources in the Azores: implications for the new MPA network and cetacean populations
+<h2 style="color: black; font-weight: bold; text-align: center;">
+Evaluating the spatio-temporal dynamics of low- and mid-trophic level resources in the Azores: implications for the new MPA network and cetacean populations
+</h2>
 
 **Summary**
 
-This thesis investigates the spatial and temporal distribution of epipelagic low- and mid-trophic level biomass in the Azores using outputs from the ecological model **SEAPODYM-LMTL**. The study explores how productivity patterns influence marine megafauna distribution and evaluates whether the Azorean **Marine Protected Area (MPA) network** overlaps with highly productive regions.
+<div style="color: black;">
+This study investigated the spatio-temporal distribution of low- and mid-trophic level biomass in the Azores using the SEPODYM-LMTL ecological model from 1998 to 2023. Three variables were analyzed: **net primary production (NPP)**, **zooplankton**, and **micronekton**. Areas were classified into three **productivity zones**: recurrent, occasional, and unfavorable. Productivity within the new **Marine Protected Area** (MPA) network was assessed to see if MPAs overlapped with highly productive waters. 
+
+Inter-annual variability was high, with no overall trends in NPP or zooplankton biomass. Spatial distribution showed a strong latitudinal gradient, with high productivity near the islands and north of 37°N (Azores Counter Current). **Fully protected MPAs had higher productivity** from April to November, while highly protected areas were similar or lower than unprotected zones. 
+
+**Baleen whales were mostly observed in occasional productivity zones**, particularly in July; no clear patterns emerged for dolphins or deep-diving species. These results provide a baseline for evaluating the ecological value of MPAs and suggest productivity zones may be important for higher trophic levels. Long-term monitoring and additional environmental predictors are needed to fully understand their significance.
+<div>
 
 ------------------------------------------------------------------------
 
 **Keywords**
 
+<span style="color: black;">
 SEAPODYM-LMTL • trophic levels • productivity zones • marine protected areas • cetaceans
+</span>
 
 ------------------------------------------------------------------------
 
 ### Methods
 
+<span style="color: black;">
 -   Ecological model outputs from **SEAPODYM-LMTL**
 -   Analysis of **three productivity indicators**
     -   Net Primary Production (NPP)\
@@ -62,42 +72,61 @@ SEAPODYM-LMTL • trophic levels • productivity zones • marine protected are
     -   unfavorable
 -   Comparison with **Marine Protected Areas (MPAs)**
 -   **Cetacean sightings dataset** from the POPA program (2001–2015)
+</span>
 
 ------------------------------------------------------------------------
 
 ### Key Results
 
+
 ::: {style="text-align: left;"}
+<span style="color: black;">
 -   **Strong spatial heterogeneity** in marine productivity across the Azores.
+</span>
+
 :::
 
-![](files/Master_thesis/productivity.png){width="70%"}
+![](files/Master_thesis/productivity.png){width="80%" style="display:block; margin:0 auto;"}
 
 ::: {style="text-align: left;"}
+<span style="color: black;">
 -   A **high-productivity region** was identified around the islands and **north of 37°N**.
+</span>
 :::
 
-![](files/Master_thesis/productivity_zones.png){width="70%"}
+![](files/Master_thesis/productivity_zones.png){width="80%" style="display:block; margin:0 auto;"}
 
 ::: {style="text-align: left;"}
+<span style="color: black;">
 -   **Fully protected MPAs** tend to overlap with **more productive waters**, especially between **April and November**.
+</span>
 :::
 
-![](files/Master_thesis/MPA_productivity.png){width="70%"}
+![](files/Master_thesis/MPA_productivity.png){width="80%" style="display:block; margin:0 auto;"}
 
 ::: {style="text-align: left;"}
+<span style="color: black;">
 -   **Baleen whales** were more frequently observed in **occasional productivity zones**, particularly during summer.
 -   No clear association was detected for **dolphins** and **deep-diving cetaceans**.
+</span>
 :::
 
-![](files/Master_thesis/Cetaceans_productivity.png){width="70%"}
+
+![](files/Master_thesis/Cetaceans_productivity.png){width="80%" style="display:block; margin:0 auto;"}
 
 
-<iframe src="files/Master_thesis/master_thesis.pdf" width="65%" height="800px">
-
+<iframe src="files/Master_thesis/master_thesis.pdf" 
+        width="78%" height="800px"
+        style="display:block; margin:0 auto;">
 </iframe>
+<br>
 
-[Anne_Vanhove_Master's_Thesis_Oceanography.pdf](files/Master_thesis/master_thesis.pdf)
+<iframe src="files/Master_thesis/MSc_vendredi.pdf" 
+        width="90%" height="550px" 
+        style="display:block; margin:0 auto;">
+</iframe>
+<br>
+[Anne_Vanhove_Master's_Thesis_Oceanography.pdf](files/Master_thesis/master_thesis.pdf) and [Presentation.pdf](files/Master_thesis/MSc_vendredi.pdf)
 
 
 ------------------------------------------------------------------------

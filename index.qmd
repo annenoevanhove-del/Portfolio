@@ -1,3 +1,4 @@
+
 ---
 title: "Index.qmd"
 format: html
@@ -52,4 +53,5 @@ This portfolio presents my research projects, including my master's thesis and o
 -   [Master Thesis in Oceanography](Master_thesis_2.html)
 -   [Master Thesis in Marine Biology](Master_thesis_1.html)
 -   [Reports](Reports.html)
--   [Presentations](Presentations.html)
+-   [Personal presentations](Presentations.html)
+-   [Collaborative presentations](Group_Presentations.html)

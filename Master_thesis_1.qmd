@@ -1,7 +1,6 @@
 ---
 title: "Master's Thesis in Marine Biology"
 format: html
-page-layout: full
 editor: visual
 lang: en
 ---
@@ -25,23 +24,27 @@ p {
 
 ------------------------------------------------------------------------
 
-### Investigating the molecular mechanisms involved in the control and perception of bioluminescence in *Tomopteris helgolandica*
+<h2 style="color: black; font-weight: bold; text-align: center;">
+Investigating the molecular mechanisms involved in the control and perception of bioluminescence in *Tomopteris helgolandica*
+</h2>
 
 ------------------------------------------------------------------------
 
 **Summary**
 
-Bioluminescence is a widespread phenomenon in marine organisms, yet its molecular regulation remains poorly understood in many species. This study investigates the potential mechanisms involved in the control and perception of light emission in the polychaete *Tomopteris helgolandica*.
+<div style="color: black;">
+Bioluminescence is a widespread phenomenon in marine organisms, yet its molecular regulation remains poorly understood in many species. This study investigates the potential mechanisms involved in the **control and perception of light emission** in the polychaete *Tomopteris helgolandica*.
 
-Previous transcriptomic analyses suggested the presence of opsin 4, an extraocular photoreceptor potentially involved in light perception. This work aimed to determine whether the molecular components involved in both light emission control and photoreception are present in this species. The study focused on two key elements: the nicotinic acetylcholine receptors potentially involved in the control of bioluminescence, and opsin 4, which may enable the organism to detect light signals.
+Previous transcriptomic analyses suggested the presence of **opsin 4**, an extraocular photoreceptor potentially involved in light perception. This work aimed to determine whether the molecular components involved in both light emission control and photoreception are present in this species. The study focused on two key elements: the **nicotinic acetylcholine receptors** potentially involved in the control of bioluminescence, and **opsin 4**, which may enable the organism to detect light signals.
 
-Through transcriptomic and immunological approaches, this work explored the presence and localization of these proteins within the organism, providing insights into the potential coupling between light production and light perception in luminous marine organisms. :contentReference[oaicite:0]{index="0"}
+Through transcriptomic and immunological approaches, this work explored the **presence and localization** of these proteins within the organism, providing insights into the potential coupling between light production and light perception in luminous marine organisms.
+<div>
 
 ------------------------------------------------------------------------
 
 **Keywords**
 
-bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine receptors • photoreception • marine polychaetes
+Bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine receptors • photoreception • marine polychaetes
 
 ------------------------------------------------------------------------
 
@@ -70,7 +73,9 @@ bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine rece
 :::
 
 ::: {style="text-align: left;"}
--   Immunological analyses confirmed the **presence and localization of these proteins in the rosette glands located in the parapodia** of *T. helgolandica*. ![](Files/Master_thesis/Immunomarquage.png){width="50%"}
+-   Immunological analyses confirmed the **presence and localization of these proteins in the rosette glands located in the parapodia** of *T. helgolandica*. 
+
+![](Files/Master_thesis/Immunomarquage.png){width="60%" style="display:block; margin:0 auto;"}
 :::
 
 -   These findings suggest that the species possesses the **molecular components required both to control and to perceive its own bioluminescence**.
@@ -81,9 +86,20 @@ bioluminescence • *Tomopteris helgolandica* • opsin 4 • acetylcholine rece
 
 ------------------------------------------------------------------------
 
-<iframe src="Files/Master_thesis/Master_thesis_bioluminescence.pdf" width="65%" height="800px">
+<iframe src="Files/Master_thesis/Master_thesis_bioluminescence.pdf" 
+        width="80%" height="800px"
+        style="display:block; margin:0 auto;">
 </iframe>
+<br>
 
-[Anne_Vanhove_Marine_Biology.pdf](Files/Master_thesis/Master_thesis_bioluminescence.pdf)
+
+<iframe src="files/Master_thesis/Biol.pdf" 
+        width="90%" height="550px" 
+        style="display:block; margin:0 auto;">
+</iframe>
+<br>
+
+[Anne_Vanhove_Master's_thesis.pdf](Files/Master_thesis/Master_thesis_bioluminescence.pdf) and [Presentation.pdf](Files/Master_thesis/Biol.pdf)
+
 
 ------------------------------------------------------------------------

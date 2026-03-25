@@ -1,0 +1,49 @@
+---
+
+title: "Collaborative Presentations"
+
+format: html
+
+editor: visual
+
+---
+
+\*\*Chemical oceanography \*\*
+
+Analysis of vertical physicochemical gradients in a coastal marine system, highlighting the link between stratification, biological activity, and biogeochemical processes.
+
+\<iframe src="files/Presentations/Chemical_oceanography.pdf" width="80%" height="363px"\>\</iframe\>
+
+-------
+
+\<br\>
+
+\*\*Valorisation of marine resources\*\*
+
+Strategic analysis of Thailand’s fisheries and aquaculture, highlighting sustainability challenges, economic dynamics, and future pathways toward more resilient marine resource management.
+
+\<iframe src="files/Presentations/Valorisation.pdf" width="80%" height="363px"\>\</iframe\>
+
+-------
+
+\<br\>
+
+\*\*Biochemistry and Physiology of Marine Animals \*\*
+
+Study of the blue-ringed octopus (Hapalochlaena), highlighting its adaptations to the environment, including advanced camouflage, reproductive strategies, and the use of tetrodotoxin for predation and defense.
+
+\<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"\>\</iframe\>
+
+-------
+
+\<br\>
+
+\*\*Coastal Oceanography\*\*
+
+Collaborative project combining fieldwork, instrumentation, and data analysis through the design and deployment of surface drifters to study coastal circulation and temperature variability in Calvi Bay.
+
+\<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"\>\</iframe\>
+
+-------
+
+\<br\>
