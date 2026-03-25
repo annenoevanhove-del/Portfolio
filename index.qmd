@@ -54,4 +54,3 @@ This portfolio presents my research projects, including my master's thesis and o
 -   [Master Thesis in Marine Biology](Master_thesis_1.html)
 -   [Reports](Reports.html)
 -   [Personal presentations](Presentations.html)
--   [Collaborative presentations](Group_Presentations.html)
