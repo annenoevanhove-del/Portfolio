@@ -3,17 +3,41 @@ title: "Presentations"
 format: html
 editor: visual
 ---
+```{=html}
+<style>
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  color: black;   /* <-- texte noir pour tout le document */
+}
+
+p {
+  text-align: justify;
+  color: black;   /* <-- assure le texte des paragraphes */
+}
+
+.scroll-box {
+  max-height: 400px;   /* hauteur de la fenêtre */
+  overflow-y: auto;    /* scroll vertical */
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: black;        /* <-- si tu mets du texte dans les scroll-box */
+}
+</style>
+```
 
 **Chemical oceanography **
 
-Analysis of vertical physicochemical gradients in a coastal marine system, highlighting the link between stratification, biological activity, and biogeochemical processes.
+This project investigated **physicochemical parameters and nutrient dynamics in a coastal marine environment**. Sampling was carried out at multiple depths using **CTD profiling** and **Niskin bottles**. Key variables measured included temperature, salinity, pH, dissolved oxygen, chlorophyll a, and nutrients. The study combined *in situ* measurements and laboratory analyses to characterize **vertical gradients** in the water column.
 
 <iframe src="files/Presentations/Chemical_oceanography.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 **Valorisation of marine resources**
 
-Strategic analysis of Thailand’s fisheries and aquaculture, highlighting sustainability challenges, economic dynamics, and future pathways toward more resilient marine resource management.
+This project provides a **strategic analysis of the fisheries and aquaculture sector in Thailand**, integrating economic, environmental, and social dimensions. It examines the evolution of production systems as well as the diversification of exploited species over time. The study also explores the organization of the **value chain** and the **dynamics of the international seafood market**. Particular attention is given to the links between production, food security, health, and environmental impacts. Finally, the work assesses **public policies** and **sustainability challenges** through a comprehensive strategic approach.
 
 <iframe src="files/Presentations/Valorisation.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
@@ -21,70 +45,24 @@ Strategic analysis of Thailand’s fisheries and aquaculture, highlighting susta
 
 **Marine Invertebrate Zoology**
 
-
-
+This work explores **bioluminescence in marine invertebrates**, focusing on its evolutionary origins, biochemical mechanisms, and ecological roles. It reviews the diversity of bioluminescent organisms and the multiple independent emergence of this trait across taxa. The study details the main **biochemical processes**, including the **luciferin–luciferase** reaction and **photoprotein systems**. It also describes the **morphological structures** involved in light production, such as **photocytes** and **photophores**. Finally, it outlines the main **biological functions** of bioluminescence, including predation, defense, and communication.
 
 <iframe src="files/Presentations/Zoology.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 **Marine mammals**
 
+This work is a **short scientific presentation** of a research article on **persistent organic pollutants (POPs) in Barents Sea polar bears**. It outlines the study’s objectives, focusing on **long-term changes in pollutant levels** and their links with feeding habits and **body condition** in a climate change context. The methodology combines long-term sampling, stable isotope analysis, and chemical measurements of pollutants. **Statistical models** are used to explore relationships between these variables over time. The presentation aims to communicate the study’s approach clearly and concisely in a brief scientific format.
 
-
-
-<iframe src="files/Presentations/Marine_mammals.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
+<iframe src="files/Presentations/Marine_mammals.pdf" width="70%" height="420px" style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 
 **Stable Isotops**
 
-
-
+This study focused on the **use of stable isotopes to investigate the trophic position of gastropods in two distinct pond ecosystems**. Field sampling was conducted to collect primary producers and various consumer organisms. Samples were prepared and analyzed for **carbon (δ¹³C)** and **nitrogen (δ¹⁵N)** isotopic signatures. The resulting data were organized and processed using spreadsheet tools, followed by **statistical analyses** including **ANOVA** to compare isotopic variations between sites. A **trophic position model** was then applied to place gastropods within the food web and to compare them with other organism groups.
 
 <iframe src="files/Presentations/Isotops.pdf" width="80%" height="363px" style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
-**Dynamics of marine ecosystems**
 
-
-
-
-<iframe src="files/Presentations/Dynamics.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
-<br>
-------
-**Biochemistry and Physiology of Marine Animals **
-
-Study of the blue-ringed octopus (Hapalochlaena), highlighting its adaptations to the environment, including advanced camouflage, reproductive strategies, and the use of tetrodotoxin for predation and defense.
-
-<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
--------
-<br>
-**Coastal Oceanography**
-
-Collaborative project combining fieldwork, instrumentation, and data analysis through the design and deployment of surface drifters to study coastal circulation and temperature variability in Calvi Bay.
-
-<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
--------
-<br>
-**Geology**
-
-
-
-
-<iframe src="files/Presentations/Mer_rouge.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
--------
-<br>
-**Methodological Approach to Oceanographic Practice**
-
-
-
-
-<iframe src="files/Presentations/Pelagia.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
--------
-<br>
-**Interview Cristina Zenato**
-
-
-
-
-<iframe src="files/Presentations/Interview.pdf" width="70%" height="800px"style="display:block; margin:0 auto;"></iframe>

@@ -3,32 +3,67 @@ title: "Collaborative Presentations"
 format: html
 editor: visual
 ---
+```{=html}
+<style>
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  color: black;   /* <-- texte noir pour tout le document */
+}
 
-**Marine ecosystem dynamics **
+p {
+  text-align: justify;
+  color: black;   /* <-- assure le texte des paragraphes */
+}
 
-Analysis of vertical physicochemical gradients in a coastal marine system, highlighting the link between stratification, biological activity, and biogeochemical processes.
+.scroll-box {
+  max-height: 400px;   /* hauteur de la fenêtre */
+  overflow-y: auto;    /* scroll vertical */
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: black;        /* <-- si tu mets du texte dans les scroll-box */
+}
+</style>
+```
 
-<iframe src="files/Presentations/Dynamics.pdf" width="80%" height="363px"></iframe>
--------
-<br>
-**Valorisation of marine resources**
+**Dynamics of marine ecosystems**
 
-Strategic analysis of Thailand’s fisheries and aquaculture, highlighting sustainability challenges, economic dynamics, and future pathways toward more resilient marine resource management.
+In this group project, we studied the functioning of the **Canary Current Upwelling System** by analyzing its **physical, biological, and biogeochemical** components. We examined the role of winds, currents, and the Intertropical Convergence Zone in driving its seasonal variability. We also explored how these processes influence **primary production**, particularly phytoplankton growth and trophic interactions. Special attention was given to nutrient inputs, turbulence, and **oceanic structures** such as filaments and eddies. Finally, we assessed the ecological and economic importance of this system, especially for biodiversity and fisheries.
 
-<iframe src="files/Presentations/Valorisation.pdf" width="80%" height="363px"></iframe>
--------
+<iframe src="files/Presentations/Dynamics.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+------
 <br>
 **Biochemistry and Physiology of Marine Animals **
 
-Study of the blue-ringed octopus (Hapalochlaena), highlighting its adaptations to the environment, including advanced camouflage, reproductive strategies, and the use of tetrodotoxin for predation and defense.
+In this group project, we studied the genus **Hapalochlaena**, focusing on its origins, distribution, and feeding habits. We analyzed its **reproductive behavior**, including mating, social recognition, egg laying, and early life stages. We also explored its remarkable **camouflage abilities**, the **specialized cells** involved, and the control of its distinctive blue rings. Additionally, we examined the presence and role of toxins, particularly **tetrodotoxin (TTX)**, in this genus and other organisms. Overall, the project highlighted the **ecological adaptations** and **survival strategies** of these unique cephalopods.
 
-<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/Hapalochlaena.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
 **Coastal Oceanography**
 
-Collaborative project combining fieldwork, instrumentation, and data analysis through the design and deployment of surface drifters to study coastal circulation and temperature variability in Calvi Bay.
+The aim of this project was to investigate **surface currents and temperature variations in Calvi Bay**. To achieve this, we **built drifters** with masts and sails and equipped them with **Raspberry Pi microcomputers programmed** to record GPS coordinates and water temperature. Deployments were conducted along transects on two separate dates, with drifters transmitting data every minute. The collected data were analyzed to map drifter trajectories, assess **current patterns**, and examine relationships between bathymetry and surface temperature. This project combined hands-on construction, coding, and data analysis to study **coastal hydrodynamics**.
 
-<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"></iframe>
+<iframe src="files/Presentations/DRIFTER.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
 -------
 <br>
+**Geology**
+
+In this project, we studied the **geology and evolution of the Red Sea**, focusing on its **tectonic origin**, sedimentary processes, and paleoceanography. We analyzed its **physical characteristics**, including bathymetry, salinity, temperature, and monsoon-influenced currents. The basin’s formation was traced from the divergence of the African and Arabian plates (~30 Ma) through rifting, volcanism, evaporite deposition, and seafloor spreading. **Sedimentology** was examined via siliciclastic, carbonate, and evaporite layers, while U/Th dating of coral terraces provided insights into past sea levels. The study integrated **geological and paleoceanographic** data to reconstruct the Red Sea’s evolutionary history.
+
+<iframe src="files/Presentations/Mer_rouge.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Methodological Approach to Oceanographic Practice**
+
+The study aimed to assess the **relationships between environmental drivers** (wind patterns, water temperature, and seasonal variability) and **jellyfish occurrence**. To achieve this, we conducted an **ecological investigation** of the jellyfish *Pelagia noctiluca* in the Mediterranean Sea, focusing on its distribution, life history traits, and interactions with the environment. We characterized the **physical and hydrodynamic properties** of the study area, including salinity, temperature, and local currents, and analyzed the species’ feeding ecology and diel vertical migration. A **standardized methodological protocol** was developed for quantifying jellyfish abundance using surface transects and spatial mapping in QGIS. Observations were conducted across **multiple spatial scales**, integrating in situ harbor counts, local meteorological measurements, and satellite-derived data.
+
+
+<iframe src="files/Presentations/Pelagia.pdf" width="80%" height="363px"style="display:block; margin:0 auto;"></iframe>
+-------
+<br>
+**Interview Cristina Zenato**
+
+<iframe src="files/Presentations/Interview.pdf" width="70%" height="800px"style="display:block; margin:0 auto;"></iframe>

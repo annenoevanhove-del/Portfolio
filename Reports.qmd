@@ -36,7 +36,7 @@ Statistical analysis of oceanographic data (Black Sea – Danube area)
 </p>
 
 
-This project aimed to understand how environmental conditions influence species distribution. Using oceanographic data, I applied statistical analyses (normality tests, clustering, PCA, biodiversity indices) to identify spatial patterns. Results showed that nutrient-rich, silty environments near the Danube support higher biodiversity, while more distant sandy areas host different communities.The complete script is available below. 
+This project aimed to understand **how environmental conditions influence species distribution**. Using oceanographic data, I applied **statistical analyses** (normality tests, clustering, PCA, biodiversity indices) to identify spatial patterns. Results showed that nutrient-rich, silty environments near the Danube support higher biodiversity, while more distant sandy areas host different communities.The complete script is available below. 
 
 **Skills acquired**: 
 
@@ -223,7 +223,7 @@ Internship in Stable Isotope Analysis
 
 
 
-This internship focused on the ecophysiology of the Antarctic sea star Odontaster validus through stable isotope analysis. I was responsible for preparing biological samples (grinding, acidification, and encapsulation) to ensure accurate isotopic measurements. I also gained insight into isotopic techniques and the functioning of EA-IRMS instrumentation. This experience strengthened my laboratory skills, scientific rigor, and understanding of trophic ecology in marine ecosystems.
+This internship focused on the **ecophysiology of the Antarctic sea star *Odontaster validus*** through stable isotope analysis. I was responsible for preparing biological samples (grinding, acidification, and encapsulation) to ensure accurate **isotopic measurements**. I also gained insight into isotopic techniques and the functioning of **EA-IRMS instrumentation**. This experience strengthened my laboratory skills, scientific rigor, and understanding of trophic ecology in marine ecosystems.
 
 **Skills acquired**: 
 
@@ -249,9 +249,7 @@ This internship focused on the ecophysiology of the Antarctic sea star Odontaste
 
 **Valorisation of marine resources**
 
-Market study of the Thai fisheries sector, with a focus on shrimp aquaculture.
-This project analyzes production trends, market organization, and environmental, economic, and health-related challenges through a One Health approach.
-It highlights key issues such as overfishing, disease outbreaks in aquaculture, and global competition, while proposing strategies for a more sustainable and quality-oriented development of the sector.
+This project provides a **strategic analysis of the Thai fisheries and aquaculture sector**, with a focus on **shrimp production**. It examines production trends, the diversification of exploited species, and the organization of the value chain, while integrating economic, environmental, and social dimensions. Using a **One Health approach**, it addresses challenges such as overfishing, disease outbreaks, global market competition, and **links between production, food security, and health**. The study also evaluates **public policie**s and **sustainability strategies**, proposing pathways for a more resilient, quality-oriented, and environmentally responsible development of the sector.
 
 **Skills acquired**: 
 
@@ -282,7 +280,7 @@ The Hidden Side of Oil Spills
 </p>
 
 
-Oil spills represent massive releases of hydrocarbons into the marine environment, with ecological impacts depending on the chemical composition of the oil, the affected ecosystem, and local physicochemical conditions. Hydrocarbons, particularly PAHs, can disperse, sediment, or bioaccumulate, affecting marine life from phytoplankton to mammals. Chemical dispersants accelerate oil fragmentation but may increase its toxicity to organisms. International regulations and local measures (sorbents, barriers, animal care) help mitigate impacts, yet risk assessment remains complex. Prevention and management of oil spills require a thorough understanding of hydrocarbon chemistry, marine ecology, and remediation techniques.
+**Oil spills** represent massive releases of hydrocarbons into the marine environment, with ecological impacts depending on the chemical composition of the oil, the affected ecosystem, and local physicochemical conditions. Hydrocarbons, particularly **Polycyclic Aromatic Hydrocarbon (PAHs)**, can disperse, sediment, or **bioaccumulate**, affecting marine life from phytoplankton to mammals. **Chemical dispersants** accelerate oil fragmentation but may increase its **toxicity** to organisms. **International regulations** and local measures (sorbents, barriers, animal care) help mitigate impacts, yet risk assessment remains complex. Prevention and management of oil spills require a thorough understanding of hydrocarbon chemistry, marine ecology, and remediation techniques.
 
 **Skills acquired**: 
 
@@ -311,8 +309,7 @@ Oil spills represent massive releases of hydrocarbons into the marine environmen
 Biochemistry and Physiology of Marine Animals (Collaborative Project)
 </p>
 
-
-This academic project explores the biochemistry and physiology of marine animals, focusing on the adaptations of blue-ringed octopuses (genus Hapalochlaena). It examines their evolutionary origins, habitat distribution, feeding strategies, reproductive behavior, and advanced camouflage systems. Particular attention is given to their unique use of tetrodotoxin (TTX), a powerful neurotoxin used for both predation and defense. This work highlights how morphological, physiological, and behavioral traits are finely tuned to environmental constraints.
+This academic project explores the **biochemistry and physiology of marine animals**, focusing on the adaptations of **blue-ringed octopuses** (genus Hapalochlaena). It examines their **evolutionary origins**, habitat distribution, feeding strategies, reproductive behavior, and **advanced camouflage systems**. Particular attention is given to their unique use of **tetrodotoxin (TTX)**, a powerful neurotoxin used for both predation and defense. This work highlights how morphological, physiological, and behavioral traits are finely tuned to environmental constraints.
 
 **Skills acquired**: 
 
